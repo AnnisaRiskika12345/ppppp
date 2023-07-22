@@ -1,0 +1,55 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+  }
+   
+  @media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+  }
+.navbar{
+    background-color: rgb(195, 228, 255);
+}
+.main{
+    background-color: rgb(195, 228, 255);
+}
+.main h1{
+    color: aliceblue;
+    font-size:2cm;
+}
+.news{
+  background-color: rgb(195, 228, 255);
+  color: black;
+}
+.btn2{
+  height: 45px;
+  width: 100px;
+  background: white;
+  margin-left: -10px;
+  border: 2px solid white;
+  font-weight: 600;
+}
+.news input{
+  height: 45px;
+  width: 55%;
+  border: 2px solid white;
+  outline: none;
+  background: black ;
+  color:white;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.news ::placeholder{
+  color: white;
+}
+.news p{
+  margin: 0;
+  font-size: 1rem;
+}
+.fab{
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding-right: 5px;
+}

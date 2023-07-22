@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Bootcamp</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Scapital Peer to Peer Lending</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <section class="main text-light p-4">
+          <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+              <form class="d-flex">
+                <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn0" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </section>
+<!-- PERLU DIUBAH BUAT LINKNYA KEMANA -->
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-link">
+              <a href="sub/Login.html" class="nav-link">Log In</a>
+            </li>
+            <li class="nav-item">
+              <a href="sub/Signup.html" class="nav-link">Sign In</a>
+            </li>
+            <img src="img/Picture3.png" alt="">
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Showcase -->
+    <section class="main text-light p-5">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Invest Your Money,</h1>
+            <h1>For Society </span></h1>
+            <p class="lead my-4"></p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Start to Join
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="img/WhatsApp Image 2023-07-20 at 16.41.47.jpeg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+<!-- INI ABOUT US -->
+<section id="learn" class="p-5">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md">
+        <img src="img/image (1).png" class="img-fluid" alt="" />
+      </div>
+      <div class="col-md p-5">
+        <h2>Scapital</h2>
+        <p>
+          Scapital merupakan sebuah inovasi dalam bentuk website berbasis peer to peer lending yang strategis dan berfokus pada penggalangan modal melalui pinjaman produktif, dengan penekanan khusus pada sektor Usaha Mikro, Kecil, dan Menengah (UMKM) di bidang kemaritiman. Keberadaan aplikasi ini dirancang untuk memperkuat dan memperluas kemampuan para pelaku usaha UMKM di sektor tersebut yang saat ini mengalami keterbatasan modal dalam pengembangan bisnis mereka. Scapital muncul sebagai wujud nyata dari upaya kami untuk memberikan kontribusi nyata dalam meningkatkan dan memajukan UMKM kemaritiman, sambil mempertahankan dan melestarikan ekosistem laut yang vital.
+        </p>
+      </div>
+    </div>
+
+            <!--  LINK JANGAN LUPA UBAH KE FITUR -->
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Go to Fitur
+            </button>
+
+      </div>
+    </section>
+    <!-- Boxes -->
+    <!-- Link Link Janlup -->
+    <section class="p-5">
+      <div class="container">
+        <h2>Categories</h2>
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-money"></i>
+                </div>
+                <h3 class="card-title mb-3">Mitra and Borrowers</h3>
+                <a class="btn btn-primary" href="sub/borrowers.html">Open</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-money"></i>
+                </div>
+                <h3 class="card-title mb-3">Company Profile</h3>
+                <a href="#" class="btn btn-primary">Open</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                </div>
+                <h3 class="card-title mb-3">Portofolio</h3>
+                <a href="#" class="btn btn-primary">Open</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-money"></i>
+                </div>
+                <h3 class="card-title mb-3">Lend</h3>
+                <a href="#" class="btn btn-primary">Open</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-money"></i>
+                </div>
+                <h3 class="card-title mb-3">Our Achievement
+                </h3>
+                <a href="#" class="btn btn-primary">Open</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-money"></i>
+                </div>
+                <h3 class="card-title mb-3">Blog and Media</h3>
+                <a href="#" class="btn btn-primary">Open</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn Sections -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="img/Picture3.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Apa saja keunggulan Scapital?</h2>
+            <p>
+              1. Investor dapat berinvestasi dengan modal kecil mulai dari Rp.100.000
+            </p>
+            <p>
+              2. Pengguna dapat melihat database borrowers pada website
+            </p>
+            <p>
+              3. Bekerja sama dengan pihak asuransi guna minimalisasi dampak gagal bayar
+            </p>
+            <p>
+              4. Terdapat komunitas sesama lenders untuk saling berdiskusi
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>Apa hubungan Scapital dengan sosial?</h2>
+            <p>
+              Fintech “Scapital” yaitu platform yang bergerak di bidang teknologi dan investasi yang membantu para pelaku UMKM bidang kemaritiman di Indonesia yang berpengaruh besar dalam bidang sosial dan lingkungan. Dengan visi untuk membantu akselerasi UMKM sebagai upaya percepatan realisasi SDGs di Indonesia. Lalu, Scapital juga akan menjawab permasalahan susahnya pengajuan dana oleh UMKM kemaritiman khususnya dengan basis 3P (people, planet, profit)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Pertanyaan yang mungkin diajukan</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+                Apa manfaat Scapital bagi para Investor?
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                <p>1. Dapat berkontribusi secara finansial untuk membantu akselerasi UMKM di bidang kemaritiman yang ramah lingkungan dan berpengaruh besar terhadap sosial serta SDGs</p>
+                <p>2. Mendapat keuntungan dari dana yang diinvestasikan kepada UMKM bidang kemaritiman melalui pltaform Scapital Peer to Peer Lending.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+              Apa manfaat Scapital bagi para UMKM bidang kemaritiman?
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                <p>1. Mendapatkan tambahan modal guna membantu keberlanjutan usaha yang 
+                  dijalankan di bidang kemaritiman.
+                <p>2. Mempercepat ekspansi bisnis UMKM bidang kemaritiman yang ramah lingkungan.</p>
+                  </p>
+                <p>3. Meningkatkan keuntungan bagi para pelaku UMKM bidang kemaritiman di 
+                  Indonesia.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+              Aspek Ekonomi (Economic Bottom Line) dari Scapital?
+
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Target pasar mitra UMKM yang telah beroperasi dalam menjalankan UMKM nya minimal waktu beroperasi 6 bulan. Waktu tersebut adalah ukuran yang ideal karena borrowers bisa melihat track record, laporan keuangan, serta kinerja dari suatu usaha.
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+              Aspek Sosial (Social Bottom Line) dari Scapital?
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Target pasar mitra UMKM yang memiliki dampak kemaritiman dalam menjalin relasi sosial antar sesama untuk meningkatkan produktivitas UMKM. Seseorang yang memutuskan untuk bergabung dalam jaringan sosial karena jaringan tersebut mampu berkontribusi langsung pada kesejahteraan baik secara finansial maupun non finansial seperti kaitannya dengan persahabatan antar individu maupun jaringan ekonomi dalam kelompok kerja 
+              </div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-five"
+              >
+              Aspek Lingkungan (Environmental Bottom Line) dari Scapital?
+              </button>
+            </h2>
+            <div
+              id="question-five"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Scapital menetapkan target pasar mitra UMKM yang mendukung ramah lingkungan (Eco-friendly) dan ekonomi biru (blue economy). Ekonomi biru sebagai ekonomi yang memanfaatkan sumber daya laut yang berwawasan lingkungan untuk mendukung oertumbuhan ekonomi, kesejahteraan, dan mata pencaharian sekaligus pelestarian ekosismtem laut. Maka dari itu, UMKM yang menerapkan ekonomi biru bisa melibatkan banyak tenaga kerja, penggunaan sumber daya laut yang tentunya bermanfaat untuk pertumbuhan ekonomi sekitar, serta dapat meminimalisir limbah yang ada.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <!-- Start Contact Section -->
+<section class="contact py-5">
+  <div class="container py-5" data-aos="fade-up"
+  data-aos-duration="3000">
+    <div class="row">
+      <div class="col-lg-5 m-auto text-center">
+        <h1>Contact Us</h1>
+      </div> 
+    </div>
+    <div class="row">
+      <div class="col-lg-9 m-auto">
+        <div class="row py-5">
+          <div class="col-lg-4">
+            <h6>LOCATION</h6>
+              <p>Departemen Statistika Bisnis Fakultas Vokasi Institut Teknologi Sepuluh Nopember Surabaya</p>
+            <h6>PHONE</h6>
+              <p>+62-857-85036016</p>
+          </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" class="form-control bg-light" placeholder="First Name">
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control bg-light" placeholder="Last Name">
+              </div>
+            </div>
+          </div>
+              <div class="col-lg-12 py-3">
+                  <textarea name="" class="form-control bg-light" placeholder="Description Your Job" id="" cols="30" rows="10"></textarea>
+              </div>
+              <div class="col-lg-6 m-auto text-center">
+                <input type="text" class="form-control bg-light" placeholder="Your Email">
+              </div>
+              <div class="col-lg-10 py-3 m-auto text-center">
+                <textarea name="" class="form-control bg-light" placeholder="Your message" id="" cols="30" rows="10"></textarea>
+            </div> 
+        </div>
+        <div class="col-lg-5 m-auto text-center">
+          <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Submit
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact Section -->
+    <!-- start news section -->
+<section class="news py-5">
+  <div class="container" data-aos="fade-up"
+  data-aos-duration="3000">
+
+    <div class="row">
+      <div class="col-lg-11">
+        <div class="row">
+          <div class="col-lg-3">
+            <p>Departemen Statistika Bisnis</p>
+            <p>Fakultas Vokasi</p>
+            <p>Institut Teknologi Sepuluh Nopember</p>
+            <p>Surabaya</p>
+            <p>Phone : +62-857-8503-6016</p>
+          </div>
+
+            <div class="col-lg-3">
+              <h5 class="pb-3">CUSTOMER CARE</h5>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            </div>
+          
+          <div class="col-lg-3">
+            
+          </div>
+          <div class="col-lg-3">
+            <img src="img/Picture3.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center">Copyright Scapital 2023</p>
+  </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="enroll"
+      tabindex="-1"
+      aria-labelledby="enrollLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Fill out this form and we will get back to you</p>
+            <form>
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                  First Name:
+                </label>
+                <input type="text" class="form-control" id="first-name" />
+              </div>
+              <div class="mb-3">
+                <label for="last-name" class="col-form-label">Last Name:</label>
+                <input type="text" class="form-control" id="last-name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="col-form-label">Phone:</label>
+                <input type="tel" class="form-control" id="phone" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    </script>
+  </body>
+</html>
